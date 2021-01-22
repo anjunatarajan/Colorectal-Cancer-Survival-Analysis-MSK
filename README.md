@@ -7,18 +7,9 @@ This R Repository is a comprehensive statistical analysis of the clinical and ge
 
 ## R packages used
 The following R packages were instrumental for this project:
-readxl
-class
-dplyr
-RSMNS
-ROCR
-tidyverse
-ggplot2
-survival
-survminer
-lubridate
-lranger
-ggfortify
+| readxl | class | dplyr | RSMS | ROCR | tidyverse |
+|-|-|-|-|-|-|
+| ggplot2 | survival | surminer | lubridate | lranger | ggfortify |
 
 ## Sample Kaplan Meier Survival Curves for univariate analysis of Clinical Attributes
 ![Median Age](https://github.com/anjunatarajan/Colorectal-Cancer-Survival-Analysis-MSK/blob/main/images/Rplot%201AGE%20AT%20DIAG%20KM%20CURVE.jpeg)
