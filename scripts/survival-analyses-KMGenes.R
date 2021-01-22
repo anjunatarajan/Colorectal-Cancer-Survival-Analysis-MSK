@@ -1,10 +1,6 @@
 #statistical analyses using KM curves for the genomic profile
 # Making Kaplan-Meier Curves
 
-install.packages("lubridate")
-install.packages("ggfortify")
-install.packages("ranger")
-
 library(survminer)
 library(survival)
 library(lubridate)

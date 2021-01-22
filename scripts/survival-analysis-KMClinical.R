@@ -1,3 +1,10 @@
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(survival)
+library(survminer)
+library(readxl)
+
 #Kaplan Meier Curves for Clinical data
 
 alldata <- read_excel("X1CRC_FINAL_GENEDATA.xls")

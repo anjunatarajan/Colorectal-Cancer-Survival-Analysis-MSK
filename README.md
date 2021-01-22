@@ -5,7 +5,7 @@
 
 This R Repository is a comprehensive statistical analysis of the clinical and genomic attributes based on samples collected from 1134 colorectal cancer patients treated at the Memorial Sloan Kettering Cancer Institute. This data is available publicly through cBioPortal for cancer genomics. In addition to statistical analyses, further machine learning models were built to predict the presence or absence of TP53 gene mutations as a novel study since TP53 mutations were present in 77% of the cancer patients within the cohort, and no similar studies have been conducted on TP53. The intent behind the statistical analyses and machine learning models is to enable clinicians who are providing care for cancer patients to provide a more targeted pattern based treatments and build a more useful genomic and clinical profile for each patient.
 
-#R packages used
+## R packages used
 The following R packages were instrumental for this project:
 readxl
 class
@@ -16,21 +16,24 @@ tidyverse
 ggplot2
 survival
 survminer
+lubridate
+lranger
+ggfortify
 
 ## Sample Kaplan Meier Survival Curves for univariate analysis of Clinical Attributes
-![Median Age](https://github.com/anjunatarajan/CRC-Survival-Analysis-MSK/blob/main/images/Rplot%201AGE%20AT%20DIAG%20KM%20CURVE.jpeg)
-![Masectomy](https://github.com/anjunatarajan/CRC-Survival-Analysis-MSK/blob/main/images/Rplot%20METASTASECTOMY%20KM%20CURVE.jpeg)
-![Sex](https://github.com/anjunatarajan/CRC-Survival-Analysis-MSK/blob/main/images/Rplot%20SEX%20KM%20CURVE.jpeg)
+![Median Age](https://github.com/anjunatarajan/Colorectal-Cancer-Survival-Analysis-MSK/blob/main/images/Rplot%201AGE%20AT%20DIAG%20KM%20CURVE.jpeg)
+![Masectomy](https://github.com/anjunatarajan/Colorectal-Cancer-Survival-Analysis-MSK/blob/main/images/Rplot%20METASTASECTOMY%20KM%20CURVE.jpeg)
+![Sex](https://github.com/anjunatarajan/Colorectal-Cancer-Survival-Analysis-MSK/blob/main/images/Rplot%20SEX%20KM%20CURVE.jpeg)
 
 
 ## Sample Kaplan Meier Survival Curves for multivariate analysis of genomic attributes
-![Gene Alterations](https://github.com/anjunatarajan/CRC-Survival-Analysis-MSK/blob/main/images/Rplot%20TP53PROTEIN%20CHANGE%20KM%20CURVE.jpeg)
+![Gene Alterations](https://github.com/anjunatarajan/Colorectal-Cancer-Survival-Analysis-MSK/blob/main/images/Rplot%20TP53PROTEIN%20CHANGE%20KM%20CURVE.jpeg)
 
 ## CoxPH Survival Analysis Box Plots to perform comparative reference based multivariate analysis on TP53 Gene Mutations
-![TP53 Mutations](https://github.com/anjunatarajan/CRC-Survival-Analysis-MSK/blob/main/images/Rplot%20AACHANGE%20COX%20MODEL.jpeg)
+![TP53 Mutations](https://github.com/anjunatarajan/Colorectal-Cancer-Survival-Analysis-MSK/blob/main/images/Rplot%20AACHANGE%20COX%20MODEL.jpeg)
 
 ## CoxPH Survival Analysis Box Plots to perform comparative reference based multivariate analysis on all attributes
-![CoxPH Clinical and Genomic ](https://github.com/anjunatarajan/CRC-Survival-Analysis-MSK/blob/main/images/Rplot%20NEW%20gene%2Bclindata%20Cox%20Model.jpeg)
+![CoxPH Clinical and Genomic ](https://github.com/anjunatarajan/Colorectal-Cancer-Survival-Analysis-MSK/blob/main/images/Rplot%20NEW%20gene%2Bclindata%20Cox%20Model.jpeg)
 
 
 ## Repository Contents
